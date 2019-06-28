@@ -6,7 +6,7 @@ import random
 import requests
 import os
 
-client = commands.Bot(command_prefix="_")
+client = commands.Bot(command_prefix="!")
 player_dict = dict()
 
 
@@ -54,4 +54,4 @@ async def resume(ctx):
 
 
 
-client.run(str(os.environ.get('BOT_TOKEN')))
+client.run(str(os.environ.get('k7qx1zEdzri_RP_nxSg8GYr0emqcYCnj')))
